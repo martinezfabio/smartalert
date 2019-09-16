@@ -1,0 +1,53 @@
+- nameRule
+	Nome da regra que será informada como parametro de busca - deve ser única
+
+- nameFunction
+	Nome da funcionalidade do sistema que será monitorada
+	
+- typeRule
+	Tipo da validação que será realizada entre o valor cadastrado e o valor retornado pelo ElasticSearch
+		IGUAL - valor do valueRuleFinal deve ser igual ao valor retornado pelo ElasticSearch
+		MAIOR - valor da ELK deve ser maior que do parametro - valueRuleFinal
+		MENOR - valor da ELK deve ser menor que do parametro - valueRuleFinal	
+		
+- valueRuleFinal
+	Valor que será comparado com o retorno do total de registros do elastic
+	
+- valueRuleStart
+	Valor inicial que será validado se está entre o valor retornado pelo ElasticSearch
+	
+- valueRuleEnd
+	Valor final que será validado se está entre o valor retornado pelo ElasticSearch
+	
+- activeRule - 
+	S regras ativas e N regras desativadas
+	
+- queryAtribute
+	Atributo que será pesquisado no elastic
+	
+- queryMessage
+	Filtro da mensagem que será pesquisado no atributo do ElasticSearch
+	
+- queryTime
+	Número de horas\dias\semanas passada que será pesquisado no elastic
+	
+- queryTypeTime
+	Tipo do período que será pesquisado no elastic, exemplo h = horas\dias\semanas
+	
+- queryFieldResult
+	Atributo que deve ser retornado pelo Elastic na consulta executada
+	
+- listMail
+	Lista de e-mails que deve ser avisado em caso de alerta positivo
+	
+- subjectMail
+	Título do e-mails que será disparado
+	
+- bodyEmailMessageErro
+	Mensagem de erro que será disparado no e-mails
+	
+- bodyEmailMessageInfo
+	Mensagem informativa que será disparado no e-mails
+	
+- bodyEmailLink
+	Link que será disparado no e-mails, exemplo - dash kibana

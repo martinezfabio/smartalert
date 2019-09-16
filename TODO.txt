@@ -1,0 +1,14 @@
+TODO
+
+ -  alerta.py
+	- Remover scheduler
+	
+ - moduleParameters.py
+	- Remover esse arquivo e transformar em variavel de ambiente
+	
+ - moduleRule.py
+	- Implementar outras regras
+		MENORIGUAL
+		MAIORIGUAL
+		ENTRE
+	- Ativação e desativação de regras
