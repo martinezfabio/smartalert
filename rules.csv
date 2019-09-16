@@ -1,3 +1,0 @@
-nameRule;nameFunction;typeRule;valueRuleFinal;valueRuleStart;valueRuleEnd;activeRule;queryAtribute;queryMessage;queryTime;queryTypeTime;queryFieldResult;listMail;subjectMail;bodyEmailMessageErro;bodyEmailMessageInfo;bodyEmailLink
-DownloadFaturaZero;Download de Faturas;IGUAL;0;0;0;S;metadata_processName;router-request-consumer;1;h;total;smartalert@gmail.com;[Alerta] Download de Faturas;Não existem downloads de faturas realizado para nenhum cliente;Consulte os relatórios para análise detalhada;https://kibana.com.br/view
-;;;;;;;;;;;;;;;;
